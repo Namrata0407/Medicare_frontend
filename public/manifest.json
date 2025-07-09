@@ -1,25 +1,32 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Medicare",
+  "name": "Medicare - Online Healthcare Platform",
+  "description": "Order medicines, browse health products, and manage healthcare needs online",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "medicare-favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "medicare-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "medicare-512.png",
       "type": "image/png",
       "sizes": "512x512"
+    },
+    {
+      "src": "medicare-icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#E53E3E",
+  "background_color": "#ffffff",
+  "categories": ["health", "medical", "pharmacy"]
 }
